@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>isPalindrome</title>
+</head>
+<body>
+<script>
+  function isPalindrome() {
+    let str = prompt("nhập chuỗi: ");
+    let a = str.split("");
+    a = a.reverse().join("");
+    if (a == str) alert("Palindrome")
+    else alert("not Palindrome");
+  }
+
+  isPalindrome();
+</script>
+</body>
+</html>
